@@ -96,5 +96,9 @@ protected void onActivityResult(int requestCode, int resultCode, Intent data) {
     super.onActivityResult(requestCode, resultCode, data);
 }
 ````
+# 最后,再次感谢AgentWeb的作者.
+<br/>
+<br/>
+撸功不够强大,不能像撸出漂亮的代码,sorry!
 
  
