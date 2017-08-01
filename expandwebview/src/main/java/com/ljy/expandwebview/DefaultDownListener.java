@@ -19,6 +19,7 @@ import java.util.List;
  * 描   述:webView 默认下载监听器
  * 作   者:lijiayan_mail@163.com
  * 创建日期:2017/07/13 16:30
+ * 参考:https://github.com/Justson/AgentWeb
  * 修改历史:
  */
 public class DefaultDownListener implements DownloadListener {

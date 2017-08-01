@@ -17,6 +17,7 @@ import android.view.animation.LinearInterpolator;
  * 描   述:WebProgress:进度条
  * 作   者:lijiayan_mail@163.com
  * 创建日期:2017/7/12 18:33
+ * 源码出处:https://github.com/Justson/AgentWeb
  * 修改历史:
  */
 public class WebProgress extends BaseIndicatorView implements BaseProgressSpec {

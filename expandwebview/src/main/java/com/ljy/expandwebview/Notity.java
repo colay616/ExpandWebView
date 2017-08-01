@@ -13,6 +13,7 @@ import android.util.Log;
  * 描   述:Notity
  * 作   者:lijiayan_mail@163.com
  * 创建日期:2017/7/14 10:59
+ * 源码出处:https://github.com/Justson/AgentWeb
  * 修改历史:
  */
 public class Notity {

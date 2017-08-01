@@ -15,7 +15,6 @@ public class PayActivity extends AppCompatActivity {
         setContentView(R.layout.activity_pay);
         FrameLayout container = (FrameLayout) findViewById(R.id.container);
         ProgressWebView progressWebView = new ProgressWebView(this, container, 2);
-        //progressWebView.setDefaultWebClient(new ProgressWebView.DefaultWebViewClient());
         ProgressWebView.DefaultWebChromeClient webChromeClient = new ProgressWebView.DefaultWebChromeClient(progressWebView.getWebProgress(), this);
         progressWebView.setDefaultWebChromeClient(webChromeClient);
         progressWebView.setDownloadListener(new DefaultDownListener(this, R.mipmap.ic_launcher));

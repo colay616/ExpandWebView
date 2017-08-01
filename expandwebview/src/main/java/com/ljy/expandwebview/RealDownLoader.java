@@ -21,6 +21,7 @@ import java.net.URL;
  * 描   述:RealDownLoader
  * 作   者:lijiayan_mail@163.com
  * 创建日期:2017/7/14 10:35
+ * 源码出处:https://github.com/Justson/AgentWeb
  * 修改历史:
  */
 public class RealDownLoader extends AsyncTask<Void, Integer, Integer> {

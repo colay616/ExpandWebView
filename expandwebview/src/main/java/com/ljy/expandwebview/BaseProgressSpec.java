@@ -5,6 +5,7 @@ package com.ljy.expandwebview;
  * 描   述:BaseProgressSpec
  * 作   者:lijiayan_mail@163.com
  * 创建日期:2017/7/12 16:40
+ * 源码出处:https://github.com/Justson/AgentWeb
  * 修改历史:
  */
 public interface BaseProgressSpec extends ProgressSpec {

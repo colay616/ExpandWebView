@@ -39,7 +39,7 @@ import java.util.Map;
  * 作   者:lijiayan_mail@163.com
  * 创建日期:2017/7/14 10:34
  * 修改历史:
- * source code  https://github.com/Justson/AgentWeb
+ * 参考源码 code  https://github.com/Justson/AgentWeb
  */
 public class WebUtils {
 

@@ -9,8 +9,8 @@ import com.ljy.expandwebview.DefaultDownListener;
 import com.ljy.expandwebview.ProgressWebView;
 
 public class UpLoadActivity extends AppCompatActivity {
-    ProgressWebView progressWebView;
-    ProgressWebView.DefaultWebChromeClient webChromeClient;
+    private ProgressWebView progressWebView;
+    private ProgressWebView.DefaultWebChromeClient webChromeClient;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -18,7 +18,6 @@ public class UpLoadActivity extends AppCompatActivity {
         setContentView(R.layout.activity_up_load);
         FrameLayout container = (FrameLayout) findViewById(R.id.container);
         progressWebView = new ProgressWebView(this, container, 2);
-        //progressWebView.setDefaultWebClient(new ProgressWebView.DefaultWebViewClient());
         webChromeClient = new ProgressWebView.DefaultWebChromeClient(progressWebView.getWebProgress(), this);
         progressWebView.setDefaultWebChromeClient(webChromeClient);
         progressWebView.setDownloadListener(new DefaultDownListener(this, R.mipmap.ic_launcher));
