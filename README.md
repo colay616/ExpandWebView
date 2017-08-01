@@ -1,5 +1,7 @@
 # 感谢:
 #### 感谢大牛 <font size='5'><strong>http://www.jianshu.com/u/a52f305fac1c</strong></font> 的开源项目: https://github.com/Justson/AgentWeb ,我是根据我项目的需求,在他的代码基础上(甚至很大一部分都是他的源码拷贝的)实现的
+### 测试app下载 <br/>
+https://github.com/lijiayan2015/ExpandWebView/blob/master/app-debug.apk
 # 主要功能:
 1.带进度条的webView.<br/>
 2.图片上传,上传的时候可以选择图片,也可以相机拍照.<br/>
